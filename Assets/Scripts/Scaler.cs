@@ -4,6 +4,7 @@ public class Scaler : MonoBehaviour
 {
     [SerializeField] private float _scaleSpeed;
     [SerializeField] private float _scaleMultiplier = 2f;
+
     private Vector3 _originalScale;
     private Vector3 _targetScale;
     private bool _isGrowing = true;
